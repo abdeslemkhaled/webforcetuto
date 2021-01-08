@@ -38,10 +38,8 @@ git  remote -v
 <p>&nbsp;</p>
 
 #### Config your local repo
-```
-git config --global user.name “Abdelali" 
-git config --global user.email abdelali@gmail.com
-```
+```git config --global user.name Abdelali```
+```git config --global user.email abdelali@gmail.com```
 
 <p>&nbsp;</p>
 
@@ -59,6 +57,10 @@ git config --global user.email abdelali@gmail.com
 #### envoyer le fichier à mon repo distant sur github (origin)
 ```git push origin main```
 ##### ça y'est!! on peut voir le fichier dans mon repo github (origin) mais pas au repo distant webforcetuto (upstream)
+
+#### Pull : Reevoir les fichiers depuis le dépot/repository partagé (upstream) à github...
+```git pull upstream main```
+
 
 <p>&nbsp;</p>
 
