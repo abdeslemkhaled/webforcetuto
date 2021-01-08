@@ -13,9 +13,11 @@
 <p>&nbsp;</p>
 
 #### définir l'url upstream
-```git  remote -v```
-```git  remote add upstream https://github.com/wingstechno/webforcetuto.git```
-```git  remote -v```
+```
+git  remote -v
+git  remote add upstream https://github.com/wingstechno/webforcetuto.git
+git  remote -v
+```
 
 <p>&nbsp;</p>
 
@@ -35,6 +37,12 @@
 
 <p>&nbsp;</p>
 
+#### Config your local repo
+```git config --global user.name Abdelali```
+```git config --global user.email abdelali@gmail.com```
+
+<p>&nbsp;</p>
+
 #### fichier ajouté au versionning mais pas encore commité au repo local
 ```git  commit -am "Ajout fichier MONNOM.txt"```
 
@@ -49,6 +57,10 @@
 #### envoyer le fichier à mon repo distant sur github (origin)
 ```git push origin main```
 ##### ça y'est!! on peut voir le fichier dans mon repo github (origin) mais pas au repo distant webforcetuto (upstream)
+
+#### Pull : Reevoir les fichiers depuis le dépot/repository partagé (upstream) à github...
+```git pull upstream main```
+
 
 <p>&nbsp;</p>
 
