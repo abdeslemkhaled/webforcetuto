@@ -38,18 +38,13 @@ git  remote -v
 <p>&nbsp;</p>
 
 #### Config your local repo
-```git config --global user.name Abdelali```
-```git config --global user.email abdelali@gmail.com```
+```git config --global user.name MonNom```
+```git config --global user.email monemail@gmail.com```
 
 <p>&nbsp;</p>
 
 #### fichier ajouté au versionning mais pas encore commité au repo local
 ```git  commit -am "Ajout fichier MONNOM.txt"```
-
-<p>&nbsp;</p>
-
-#### on lance cette commande pour savoir à quelle branche on est mnt
-```git  branch```
 
 <p>&nbsp;</p>
 
@@ -60,9 +55,11 @@ git  remote -v
 
 #### Pull : Reevoir les fichiers depuis le dépot/repository partagé (upstream) à github...
 ```git pull upstream main```
-
+### Si tu es arrivé à cette étape, tu a fait l'essenciel
 
 <p>&nbsp;</p>
+
+## Branches
 
 #### on va créer maintenant une nouvelle branche
 ```git  branch develop```
@@ -81,14 +78,8 @@ git  remote -v
 <p>&nbsp;</p>
 
 #### puis on commit les changements faits
-```git  commit -am "nouvelle changements branche develop"```
+```git  commit -am "nouveaux changements branche develop"```
 ##### chengements envoyés au repo local
-
-<p>&nbsp;</p>
-
-#### avant d'envoyer les changements au repo distant, on doit créer ce nouveau dossier, on l'appelle "upstream" et on met dans sa valeur l'url repo github: https://github.com/wingstechno/webforcetuto.git
-```git  remote -v```
-```git  remote add upstream https://github.com/wingstechno/webforcetuto.git```
 
 <p>&nbsp;</p>
 
